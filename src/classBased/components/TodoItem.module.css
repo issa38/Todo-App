@@ -3,6 +3,7 @@
     list-style-type: none;
     padding: 17px 0px;
     border-bottom: 1px solid #eaeaea;
+    animation: FadeIn 0.5s;
 }
 
 .checkbox {
@@ -26,4 +27,24 @@
     width: 100%;
     padding: 10px;
     border: 1px solid #dfdfdf;
+}
+
+.header {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 1em;
+    color: #958F9D;
+    text-transform: lowercase;
+    text-align: center;
+    animation: FadeIn 4s;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

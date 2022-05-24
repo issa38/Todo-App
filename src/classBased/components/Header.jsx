@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../components/TodoItem.module.css'
 
 const Header = () =>{
 
@@ -9,16 +10,7 @@ const Header = () =>{
 
     return(
     <header style={headerStyle}>
-        <h1 style={{
-                    fontSize: "6rem",
-                    fontWeight: "600",
-                    marginBottom: "2rem",
-                    lineHeight: "1em",
-                    color: "#958F9D",
-                    textTransform: "lowercase",
-                    textAlign: "center",
-        }}>
-            Todos</h1>
+        <h1 className={styles.header}>Todos</h1>
     </header>
     )
 }
